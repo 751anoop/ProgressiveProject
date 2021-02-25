@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T21:42:11 CST" name="Default suite" finished-at="2021-02-24T21:43:36 CST" duration-ms="85383">
+    <groups>
+    </groups>
+    <test started-at="2021-02-24T21:42:11 CST" name="Default test" finished-at="2021-02-24T21:43:36 CST" duration-ms="85383">
+      <class name="progressiveTestCases.ProgressiveTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:11 CST" name="setUp" finished-at="2021-02-24T21:42:11 CST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:11 CST" name="setup" finished-at="2021-02-24T21:42:21 CST" depends-on-methods="progressive.testBase.TestBase.setUp" duration-ms="10288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:21 CST" name="testCase1" finished-at="2021-02-24T21:42:22 CST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:22 CST" name="getResult" finished-at="2021-02-24T21:42:22 CST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase1 status=SUCCESS method=ProgressiveTest.testCase1()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase2()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:22 CST" name="testCase2" finished-at="2021-02-24T21:42:25 CST" duration-ms="3488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:25 CST" name="getResult" finished-at="2021-02-24T21:42:25 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase2 status=SUCCESS method=ProgressiveTest.testCase2()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase3()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:25 CST" name="testCase3" finished-at="2021-02-24T21:42:35 CST" duration-ms="9496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:35 CST" name="getResult" finished-at="2021-02-24T21:42:35 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase3 status=SUCCESS method=ProgressiveTest.testCase3()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase4()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:35 CST" name="testCase4" finished-at="2021-02-24T21:42:57 CST" duration-ms="22316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:57 CST" name="getResult" finished-at="2021-02-24T21:42:57 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase4 status=SUCCESS method=ProgressiveTest.testCase4()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase5()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:42:57 CST" name="testCase5" finished-at="2021-02-24T21:43:11 CST" duration-ms="13423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:11 CST" name="getResult" finished-at="2021-02-24T21:43:11 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase5 status=SUCCESS method=ProgressiveTest.testCase5()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase6()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:11 CST" name="testCase6" finished-at="2021-02-24T21:43:14 CST" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:14 CST" name="getResult" finished-at="2021-02-24T21:43:14 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase6 status=SUCCESS method=ProgressiveTest.testCase6()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase7()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:14 CST" name="testCase7" finished-at="2021-02-24T21:43:23 CST" duration-ms="9766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase7 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:23 CST" name="getResult" finished-at="2021-02-24T21:43:23 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase7 status=SUCCESS method=ProgressiveTest.testCase7()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase8()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:23 CST" name="testCase8" finished-at="2021-02-24T21:43:28 CST" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase8 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:28 CST" name="getResult" finished-at="2021-02-24T21:43:28 CST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase8 status=SUCCESS method=ProgressiveTest.testCase8()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:28 CST" name="terminate" finished-at="2021-02-24T21:43:36 CST" duration-ms="7463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:progressiveTestCases.ProgressiveTest@290d210d]" started-at="2021-02-24T21:43:36 CST" name="endReport" finished-at="2021-02-24T21:43:36 CST" depends-on-methods="progressiveTestCases.ProgressiveTest.terminate" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- progressiveTestCases.ProgressiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
